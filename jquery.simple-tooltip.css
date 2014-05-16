@@ -1,0 +1,98 @@
+.simple-tooltip {
+    cursor: pointer;
+    position: absolute;
+}
+.simple-tooltip .simple-tooltip-content {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 6px 6px 6px 6px;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 8pt;
+    padding: 4px 10px;
+    position: relative;
+    width: 150px;
+    z-index: 5001;
+}
+.simple-tooltip .simple-tooltip-arrow {
+    margin: -2px 0 0 13px;
+    position: relative;
+    width: 15px;
+    z-index: 5006;
+}
+.simple-tooltip .simple-tooltip-arrow div {
+    background: none repeat scroll 0 0 #FFFFFF;
+    display: block;
+    height: 1px;
+    line-height: 0;
+    margin: 0 auto;
+}
+.simple-tooltip-info .simple-tooltip-content {
+	border: 1px solid #2275BE;
+    color: #2275BE;
+}
+.simple-tooltip-info .simple-tooltip-arrow div {
+    border-left: 2px solid #2275BE;
+    border-right: 2px solid #2275BE;
+}
+.simple-tooltip-warning .simple-tooltip-content {
+	border: 1px solid #9F6000;
+    color: #9F6000;
+}
+.simple-tooltip-warning .simple-tooltip-arrow div {
+    border-left: 2px solid #9F6000;
+    border-right: 2px solid #9F6000;
+}
+.simple-tooltip-error .simple-tooltip-content {
+	border: 1px solid #D8000C;
+    color: #D8000C;
+}
+.simple-tooltip-error .simple-tooltip-arrow div {
+    border-left: 2px solid #D8000C;
+    border-right: 2px solid #D8000C;
+}
+.simple-tooltip-success .simple-tooltip-content {
+	border: 1px solid #4F8A10;
+    color: #4F8A10;
+}
+.simple-tooltip-success .simple-tooltip-arrow div {
+    border-left: 2px solid #4F8A10;
+    border-right: 2px solid #4F8A10;
+}
+.simple-tooltip .simple-tooltip-arrow .line10 {
+    border: medium none;
+    width: 15px;
+}
+.simple-tooltip .simple-tooltip-arrow .line9 {
+    border: medium none;
+    width: 13px;
+}
+.simple-tooltip .simple-tooltip-arrow .line8 {
+    width: 11px;
+}
+.simple-tooltip .simple-tooltip-arrow .line7 {
+    width: 9px;
+}
+.simple-tooltip .simple-tooltip-arrow .line6 {
+    width: 7px;
+}
+.simple-tooltip .simple-tooltip-arrow .line5 {
+    width: 5px;
+}
+.simple-tooltip .simple-tooltip-arrow .line4 {
+    width: 3px;
+}
+.simple-tooltip .simple-tooltip-arrow .line3 {
+    border-bottom: 0 solid #2275BE;
+    border-left: 2px solid #2275BE;
+    border-right: 2px solid #2275BE;
+    width: 1px;
+}
+.simple-tooltip .simple-tooltip-arrow .line2 {
+    background: none repeat scroll 0 0 #2275BE;
+    border: medium none;
+    width: 3px;
+}
+.simple-tooltip .simple-tooltip-arrow .line1 {
+    background: none repeat scroll 0 0 #2275BE;
+    border: medium none;
+    width: 1px;
+}
